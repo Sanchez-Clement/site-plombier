@@ -125,9 +125,14 @@ span {
 
  }
 
- footer {
-   margin-top: -80px;
+.haut {
+  display: none;}
+
+ video {
+   display: none;
  }
+
+
  footer li {
    padding: 10px;
    list-style: none;
@@ -142,3 +147,55 @@ footer a {
  }
 
  /******************* Tablette **********************************/
+@media (min-width: 701px) {
+
+header {
+  background-size: auto;
+  height: 300px;
+
+}
+
+header img {
+
+  width: 15%;
+  margin-left: 100px;
+
+}
+
+.name {
+  margin-top: 102px;
+  margin-right: 53px;
+}
+
+  main li:first-child {
+
+margin-left: 50px;
+
+}
+
+main li {
+margin-right: 80px;}
+
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+
+
+footer {
+  height: 200px;
+  background-image: url(images/footer1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+footer ul li{
+  display: inline-block;
+  margin-top: 60px;
+}
+
+}
+
+/**************************************PC********************************/
