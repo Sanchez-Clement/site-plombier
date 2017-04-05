@@ -1,3 +1,5 @@
+/*******************************************smartphone*********************/
+
 body {
   text-align: center;
   margin: 0;
@@ -33,7 +35,7 @@ header img {
 font-size: 0.8em;
 margin-left: -13%;
 margin-top: 120px;
-border: 1px black solid;
+
 font-family: cursive;
 }
 
@@ -44,7 +46,7 @@ font-family: cursive;
   margin-top: 10px;
   background-color: #EECD32;
   border-radius: 30px;
-  border: black dashed 1px;
+
   box-shadow: 2px 2px 2px #78681A;
 }
 
@@ -52,29 +54,29 @@ main, nav{
   width: 100%;
 
 }
- main ul li {
-   list-style: none;
-   font-size: 1.5em;
-   color: white;
-   background-color: blue;
-   width: 100%;
 
- }
 
- main ul li:hover {
-   background-color: white;
-   color : blue;
- }
 
- ul {
-  padding-left: 0;
- }
+  main li {
+    width: 40px;
+    display: inline-block;
+    font-size: 2em;
 
-  nav i {
-    color: white;
-    margin-right: 10px;
+    padding: 40px;
+    background-image: url(images/goutte.png);
+    background-size: 112%;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+
+
   }
 
+  main li:first-child {
+    margin-left: -50px
+  }
+span {
+  display: none;
+}
   section {
     width: 90%;
     margin: auto;
@@ -122,3 +124,21 @@ main, nav{
    margin-left: 10px;
 
  }
+
+ footer {
+   margin-top: -80px;
+ }
+ footer li {
+   padding: 10px;
+   list-style: none;
+
+ }
+
+footer a {
+  color: black;
+}
+ footer i {
+   margin-right: 20px;
+ }
+
+ /******************* Tablette **********************************/
