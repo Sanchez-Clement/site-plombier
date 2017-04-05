@@ -176,7 +176,6 @@ margin-left: 50px;
 main li {
 margin-right: 80px;}
 
-}
 
 section {
   margin-bottom: 100px;
@@ -199,3 +198,85 @@ footer ul li{
 }
 
 /**************************************PC********************************/
+
+@media (min-width:1000px) {
+
+.name {
+  margin-right: 120px;
+}
+
+
+
+
+main li {
+  display: block;
+
+  margin-bottom: 50px;
+}
+
+main li:first-child {
+  margin-left: 0;
+}
+
+main nav{
+  display: inline-block;
+
+  width: auto;
+  height: 600px;
+  left: 0;
+  margin-top: 30px;
+  position: absolute;
+}
+
+
+main section {
+  display :inline-block;
+  width: 70%;
+  
+  vertical-align: top;
+margin-left: 180px;
+
+
+}
+
+
+section img {
+  width: 250px;
+}
+
+.right {
+  vertical-align: top;
+}
+
+video {
+  display: inline-block;
+  width: 30%;
+margin-left: -180px
+
+}
+footer {
+  height: 300px;
+}
+
+footer li {
+  font-size: 2em;
+padding-top: 80px;
+margin-left: 100px;
+}
+
+.haut {
+  display: block;
+  bottom: 10px;
+  right : 0;
+  position: fixed;
+width: 100px;
+
+
+}
+
+.haut img {
+  width: 50%;
+}
+
+
+}
