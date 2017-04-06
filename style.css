@@ -11,19 +11,19 @@ a { text-decoration: none;}
 
 header {
   width: 100%;
-
   background-image: url(images/header1.png);
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
 
 header img {
   width: 20%;
-  margin-left: 20px;
-  margin-top : 100px;
-  display: inline-block;
+  /*margin-left: 20px;
+  margin-top : 100px;*/
   float: left;
+  position: relative;
+  top : 58px;
+  left: 20px;
 }
 
 .name, address {
@@ -32,108 +32,106 @@ header img {
 }
 
 .name {
-font-size: 0.8em;
-margin-left: -13%;
-margin-top: 120px;
-
-font-family: cursive;
+  font-size: 0.8em;
+  font-family: cursive;
 }
 
- header address {
+header address {
 
   line-height: 2;
   padding: 10px;
   margin-top: 10px;
   background-color: #EECD32;
   border-radius: 30px;
-
   box-shadow: 2px 2px 2px #78681A;
 }
 
-main, nav{
+main, nav, {
   width: 100%;
 
 }
 
+main ul {
+  position: relative;
+  left : -27px;
+}
+
+main li {
+  width: 40px;
+  display: inline-block;
+  font-size: 2em;
+  padding: 40px;
+  background-image: url(images/goutte.png);
+  background-size: 112%;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+}
 
 
-  main li {
-    width: 40px;
-    display: inline-block;
-    font-size: 2em;
-
-    padding: 40px;
-    background-image: url(images/goutte.png);
-    background-size: 112%;
-    background-repeat: no-repeat;
-    padding-right: 20px;
-
-
-  }
-
-  main li:first-child {
-    margin-left: -50px
-  }
 span {
   display: none;
 }
-  section {
-    width: 90%;
-    margin: auto;
+
+section {
+  width: 90%;
+  margin: auto;
+}
+
+
+section img {
+  width: 35%;
   }
 
-  section img {
-    width: 35%;
-  }
-
- .left img {
-   float: left;
+.left img {
+  float: left;
  }
 
- .right img {
-   float: right;
+.right img {
+  float: right;
  }
 
 
+section p {
+  font-size: 0.8em;
+  line-height: 1.5;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: justify;
+ }
 
- section p {
-   font-size: 0.8em;
-   /*height: 20%;*/
-   line-height: 1.5;
-   padding: 10px;
-   border-radius: 10px;
-   text-align: justify;
+.canalisation {
+
+  background-color: #4BD490;
+  margin-left: 10px;
 
  }
 
- .canalisation {
-   background-color: #4BD490;
-   margin-left: 10px;
-   margin-top: 35px;
+.douche {
+  margin-right: 10px;
+  background-color: #EECD32;
 
  }
 
- .douche {
-   margin-right: 10px;
-   background-color: #EECD32;
-   margin-top: -5px;
+.right img {
+  margin-top: 28px;
  }
 
- .chauffe {
-   background-color: #DB764A;
-   margin-left: 10px;
+.chauffe {
+  background-color: #DB764A;
+  margin-left: 10px;
 
  }
 
 .haut {
-  display: none;}
+  display: none;
+}
 
- video {
+video {
    display: none;
  }
 
 
- footer li {
+footer li {
    padding: 10px;
    list-style: none;
 
@@ -162,26 +160,27 @@ header img {
 
 }
 
-.name {
-  margin-top: 102px;
-  margin-right: 53px;
+address {
+  position: relative;
+  top: 82px;
 }
 
-  main li:first-child {
+.name {
+  position: relative;
+  top: 100px;
+  left : -100px;
+}
 
-margin-left: 50px;
-
+main ul {
+  left: 20px;
 }
 
 main li {
-margin-right: 80px;}
-
+  margin-right: 80px;}
 
 section {
   margin-bottom: 100px;
 }
-
-
 
 footer {
   height: 200px;
@@ -192,7 +191,8 @@ footer {
 
 footer ul li{
   display: inline-block;
-  margin-top: 60px;
+  position: relative;
+  top : 70px;
 }
 
 }
@@ -204,9 +204,6 @@ footer ul li{
 .name {
   margin-right: 120px;
 }
-
-
-
 
 main li {
   display: block;
@@ -220,22 +217,18 @@ main li:first-child {
 
 main nav{
   display: inline-block;
-
   width: auto;
   height: 600px;
-  left: 0;
+  left: -30px;
   margin-top: 30px;
   position: absolute;
 }
 
-
 main section {
   display :inline-block;
   width: 70%;
-  
   vertical-align: top;
-margin-left: 180px;
-
+  margin-left: 180px;
 
 }
 
@@ -251,17 +244,18 @@ section img {
 video {
   display: inline-block;
   width: 30%;
-margin-left: -180px
-
+  margin-bottom: 30px;
 }
+
 footer {
   height: 300px;
 }
 
-footer li {
+footer ul li {
   font-size: 2em;
-padding-top: 80px;
-margin-left: 100px;
+  top: 120px;
+  left : -80px;
+  margin-left: 100px;
 }
 
 .haut {
@@ -269,9 +263,7 @@ margin-left: 100px;
   bottom: 10px;
   right : 0;
   position: fixed;
-width: 100px;
-
-
+  width: 100px;
 }
 
 .haut img {
