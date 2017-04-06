@@ -14,12 +14,11 @@ header {
   background-image: url(images/header1.png);
   background-repeat: no-repeat;
   background-size: 100%;
+
 }
 
 header img {
   width: 20%;
-  /*margin-left: 20px;
-  margin-top : 100px;*/
   float: left;
   position: relative;
   top : 58px;
@@ -99,14 +98,14 @@ section p {
   text-align: justify;
  }
 
-.canalisation {
+#canalisation p  {
 
   background-color: #4BD490;
   margin-left: 10px;
 
  }
 
-.douche {
+#douche p{
   margin-right: 10px;
   background-color: #EECD32;
 
@@ -114,9 +113,10 @@ section p {
 
 .right img {
   margin-top: 28px;
+
  }
 
-.chauffe {
+#chauffe p {
   background-color: #DB764A;
   margin-left: 10px;
 
@@ -134,15 +134,44 @@ video {
 footer li {
    padding: 10px;
    list-style: none;
+   position: relative;
+   left : -20px;
 
+ }
+
+ footer ul {
+   margin: auto;
  }
 
 footer a {
   color: black;
 }
- footer i {
+footer i {
    margin-right: 20px;
  }
+ /*************************************tarifs*****************/
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 30px;
+ }
+
+tr, th, td {
+  border: 1px solid black;
+  font-size: 0.8em;
+  padding: 10px;
+
+}
+
+th {
+  background-color: #EECD32;
+}
+
+td {
+  background-color: #F16263;
+}
+
+
 
  /******************* Tablette **********************************/
 @media (min-width: 701px) {
@@ -156,7 +185,7 @@ header {
 header img {
 
   width: 15%;
-  margin-left: 100px;
+  left : 80px;
 
 }
 
@@ -171,8 +200,13 @@ address {
   left : -100px;
 }
 
+.right img {
+  margin-top: 10px;
+}
+
 main ul {
-  left: 20px;
+  width: 80%;
+  left : 75px;
 }
 
 main li {
@@ -194,6 +228,12 @@ footer ul li{
   position: relative;
   top : 70px;
 }
+
+/*******************************tarifs**************************************/
+
+
+tr, th, td {
+  font-size: 1em;
 
 }
 
@@ -241,6 +281,11 @@ section img {
   vertical-align: top;
 }
 
+#canalisation img {
+  position: relative;
+  top : -15px;
+}
+
 video {
   display: inline-block;
   width: 30%;
@@ -270,5 +315,15 @@ footer ul li {
   width: 50%;
 }
 
+
+
+/******************************************tarifs******************/
+
+table {
+  width: 80%;
+  position: relative;
+
+left : 242px;
+}
 
 }
