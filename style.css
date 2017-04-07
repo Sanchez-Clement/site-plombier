@@ -171,6 +171,25 @@ td {
   background-color: #F16263;
 }
 
+/**********************************Contact****************************/
+label, input {
+  display: inline-block;
+
+}
+
+form div {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+ form input {
+   width: 200px;
+ }
+
+ Iframe {
+   width: 80%;
+ }
 
 
  /******************* Tablette **********************************/
@@ -236,6 +255,20 @@ tr, th, td {
   font-size: 1em;
 
 }
+
+/***********************contact****************************************/
+form div {
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+ form input {
+   width: 300px;
+ }
+
+
 
 /**************************************PC********************************/
 
@@ -326,4 +359,31 @@ table {
 left : 242px;
 }
 
+/************************************contact***************/
+form {
+  position: relative;
+  left:190px;
+  top : 70px;}
+
+form div {
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+ form input {
+   width: 300px;
+ }
+
+form, .carte{
+  display: inline-block;
+}
+
+.carte {
+   width : 50%;
+ }
+
+iframe {
+  width: 50%;
 }
