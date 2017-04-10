@@ -296,7 +296,7 @@ main nav{
   display: inline-block;
   width: auto;
   height: 600px;
-  left: -30px;
+  left: -86px;
   margin-top: 30px;
   position: absolute;
 }
@@ -316,6 +316,11 @@ section img {
 
 .right {
   vertical-align: top;
+}
+
+.left, .right {
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 #canalisation img {
