@@ -107,6 +107,8 @@ section p {
 
  }
 
+
+
 #douche p{
   margin-right: 10px;
   background-color: #EECD32;
@@ -237,8 +239,18 @@ main li {
 
 section {
   margin-bottom: 100px;
+
 }
 
+#canalisation {
+  height: 200px;
+}
+
+#canalisation p {
+  position: relative;
+  top : 20px;
+  z-index: -1;
+}
 footer {
   height: 200px;
   background-image: url(images/footer1.png);
@@ -321,6 +333,10 @@ section img {
 .left, .right {
   margin-left: 20px;
   margin-bottom: 20px;
+}
+
+#canalisation {
+  height: 240px;
 }
 
 #canalisation img {
