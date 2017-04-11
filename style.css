@@ -35,6 +35,8 @@ header img {
 .name {
   font-size: 0.8em;
   font-family: cursive;
+  position: relative;
+  top :15px;
 }
 
 header address {
